@@ -1,15 +1,20 @@
-import "./layout.scss"
-import {ReactNode} from "react";
+import { Fragment, ReactNode } from "react";
+import Header from "../header/header";
+import "./layout.scss";
 
-type LayoutProps={
-    children:ReactNode
+type LayoutProps = {
+    header?:boolean
+    children: ReactNode
 }
 
-const Layout=({children}:LayoutProps)=>{
-    return(
-        <div className="layout-main-container">
-            {children}
-        </div>
-    )
-}
-export default Layout
+const Layout = ({ children, header }: LayoutProps) => {
+    return (
+        <Fragment>
+            { header && <Header />}
+            <div className="layout-main-container">
+                {children}
+            </div>
+        </Fragment>
+    );
+};
+export default Layout;
