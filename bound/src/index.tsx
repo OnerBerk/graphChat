@@ -13,12 +13,12 @@ import {
     HttpLink, split,
 } from "@apollo/client";
 
-
 const httpLink = new HttpLink({
     uri: "http://localhost:4000/graphql",
 });
 
-const token = localStorage.getItem('chat-auth')
+const stringtoken = localStorage.getItem('chat-auth')
+const token = stringtoken && stringtoken.replace(/(^"|"$)/g, '')
 const wsLink = new WebSocketLink({
     uri: "ws://localhost:4000/graphql",
     options: {
@@ -52,7 +52,7 @@ const authLink = setContext((_,{headers})=>{
 
 const client = new ApolloClient({
     link: authLink.concat(splitLink),
-    cache: new InMemoryCache(),
+    cache: new InMemoryCache()
 });
 
 ReactDOM.render(

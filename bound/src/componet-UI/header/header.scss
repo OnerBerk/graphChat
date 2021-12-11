@@ -1,12 +1,33 @@
-.header-main-container{
-  position: fixed;
+.header-main-container {
+  position: sticky;
   top: 0;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid #a19f9f;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   background-color: snow;
   height: 3em;
+  z-index: 1000;
+
+  .header-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: Arial, sans-serif;
+    font-size: 1.3em;
+    margin-left: 0.5em;
+    color: #1976d2;
+
+  }
+
+  button {
+    padding-right: 1em;
+    div{
+      margin-right: 1em;
+    }
+  }
 }

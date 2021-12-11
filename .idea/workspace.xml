@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a7e75cb-eab1-4afb-94d8-c4d497d707ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bound/src/componet-UI/hamburger/hamburger-menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bound/src/componet-UI/hamburger/hamburger-menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bound/src/componet-UI/spinner/spinner.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bound/src/interfaces/interfaces.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bound/src/pages/chat.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bound/src/pages/contact.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bound/src/utils/getUsers.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bound/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bound/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bound/src/componet-UI/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/bound/src/componet-UI/header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bound/src/componet-UI/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bound/src/componet-UI/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bound/src/componet-UI/layout/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/bound/src/componet-UI/layout/layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bound/src/componet-UI/layout/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bound/src/componet-UI/layout/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bound/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bound/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bound/src/pages/dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bound/src/pages/dashboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bound/src/route/routeur.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bound/src/route/routeur.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bound/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bound/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="223fIGHeOfT2C3PAjAi1BNuDjG0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/bound/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bound/src/pages" />
+      <recent name="$PROJECT_DIR$/bound" />
+      <recent name="$PROJECT_DIR$/bound/src/config" />
+      <recent name="$PROJECT_DIR$/bound/src" />
+      <recent name="$PROJECT_DIR$/bound/src/src/componet-UI/layout" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="bound/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="bound/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.bound/Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a7e75cb-eab1-4afb-94d8-c4d497d707ce" name="Changes" comment="" />
+      <created>1639071110260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639071110260</updated>
+      <workItem from="1639071112567" duration="18425000" />
+      <workItem from="1639124484821" duration="1619000" />
+      <workItem from="1639156735983" duration="11504000" />
+      <workItem from="1639217960856" duration="20344000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

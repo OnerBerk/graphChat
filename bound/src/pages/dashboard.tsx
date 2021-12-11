@@ -1,23 +1,10 @@
 import Layout from "../componet-UI/layout/layout";
-import { gql } from "@apollo/client";
-
-const GROUPS = gql`
-    query Users {
-        users {
-            id
-            role
-            lastname
-            firstname
-        }
-    }
-`
-
-
+import GetUsers from "../utils/getUsers";
 
 const Dashboard = () => {
     return (
-        <Layout header={true}>
-            Dashboard
+        <Layout title="Dashboard" header={true}>
+            <GetUsers />
         </Layout>
     );
 };
