@@ -1,26 +1,31 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./pages/App";
 import { WebSocketLink } from "@apollo/client/link/ws";
+import { getMainDefinition } from "@apollo/client/utilities";
+import { setContext } from "@apollo/client/link/context";
 import reportWebVitals from "./config/reportWebVitals";
-
+import App from "./pages/App";
+import "./index.css";
 import {
     ApolloClient,
     InMemoryCache,
     ApolloProvider,
     HttpLink, split,
 } from "@apollo/client";
-import { getMainDefinition } from "@apollo/client/utilities";
+
 
 const httpLink = new HttpLink({
     uri: "http://localhost:4000/graphql",
 });
 
+const token = localStorage.getItem('chat-auth')
 const wsLink = new WebSocketLink({
     uri: "ws://localhost:4000/graphql",
     options: {
         reconnect: true,
+        connectionParams: {
+            authToken: token,
+        },
     },
 });
 
@@ -36,8 +41,17 @@ const splitLink = split(
     httpLink,
 );
 
+const authLink = setContext((_,{headers})=>{
+    return{
+        headers:{
+            ...headers,
+            authorization:token ? token : ""
+        }
+    }
+})
+
 const client = new ApolloClient({
-    link: splitLink,
+    link: authLink.concat(splitLink),
     cache: new InMemoryCache(),
 });
 
