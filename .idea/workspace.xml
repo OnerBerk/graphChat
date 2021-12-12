@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a7e75cb-eab1-4afb-94d8-c4d497d707ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bound/src/componet-UI/hamburger/hamburger-menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bound/src/componet-UI/hamburger/hamburger-menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bound/src/componet-UI/spinner/spinner.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bound/src/interfaces/interfaces.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bound/src/pages/chat.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bound/src/pages/contact.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bound/src/utils/getUsers.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bound/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bound/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bound/src/componet-UI/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/bound/src/componet-UI/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bound/src/componet-UI/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bound/src/componet-UI/header/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bound/src/componet-UI/chat-Board/chat-board.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bound/src/componet-UI/layout/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/bound/src/componet-UI/layout/layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bound/src/componet-UI/layout/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bound/src/componet-UI/layout/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bound/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bound/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bound/src/pages/dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bound/src/pages/dashboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bound/src/route/routeur.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bound/src/route/routeur.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bound/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bound/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bound/src/pages/chat.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bound/src/pages/chat.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +71,7 @@
       <workItem from="1639071112567" duration="18425000" />
       <workItem from="1639124484821" duration="1619000" />
       <workItem from="1639156735983" duration="11504000" />
-      <workItem from="1639217960856" duration="20344000" />
+      <workItem from="1639217960856" duration="29777000" />
     </task>
     <servers />
   </component>
